@@ -138,20 +138,38 @@ for env_name, kwargs in [
         ("explodingblocks", {'render' : exploding_blocks_render}),
         ("newspapers", {'operators_as_actions' : True,
                         'dynamic_action_space' : True}),
-        (
-            "taskographyv1",
-            {
-                "operators_as_actions": True,
-                "dynamic_action_space": True,
-            },
-        ),
+        ("easynewspapers", {'operators_as_actions' : True,
+                        'dynamic_action_space' : True}),
+        ("trapnewspapers", {'operators_as_actions' : True,
+                        'dynamic_action_space' : True}),
         (
             "taskographyv2tiny10",
             {
                 "operators_as_actions": True,
-                "dynamic_action_space": True,
-            },
+                "dynamic_action_space": True
+            }
         ),
+        (
+            "taskographyv2medium10",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv3tiny10bagslots5",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots5",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        )
 ]:
     other_args = {
         "raise_error_on_invalid_action": False,
