@@ -138,6 +138,13 @@ for env_name, kwargs in [
         ("explodingblocks", {'render' : exploding_blocks_render}),
         ("newspapers", {'operators_as_actions' : True,
                         'dynamic_action_space' : True}),
+        (
+            "taskographyv1",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True,
+            },
+        )
 ]:
     other_args = {
         "raise_error_on_invalid_action": False,
