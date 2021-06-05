@@ -157,6 +157,20 @@ for env_name, kwargs in [
             }
         ),
         (
+            "taskographyv3tiny10bagslots3",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots3",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
             "taskographyv3tiny10bagslots5",
             {
                 "operators_as_actions": True,
@@ -165,6 +179,20 @@ for env_name, kwargs in [
         ),
         (
             "taskographyv3medium10bagslots5",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv3tiny10bagslots7",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots7",
             {
                 "operators_as_actions": True,
                 "dynamic_action_space": True
