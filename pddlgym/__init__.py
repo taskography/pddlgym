@@ -225,6 +225,20 @@ for env_name, kwargs in [
                 "operators_as_actions": True,
                 "dynamic_action_space": True
             }
+        ),
+        (
+            "taskographyv3tiny10bagslots10",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots10",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
         )
 ]:
     other_args = {
