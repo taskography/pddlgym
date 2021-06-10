@@ -150,6 +150,13 @@ for env_name, kwargs in [
             }
         ),
         (
+            "taskographyv2tiny1updated",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
             "taskographyv2medium1",
             {
                 "operators_as_actions": True,
@@ -158,6 +165,13 @@ for env_name, kwargs in [
         ),
         (
             "taskographyv2tiny2",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv2tiny2updated",
             {
                 "operators_as_actions": True,
                 "dynamic_action_space": True
