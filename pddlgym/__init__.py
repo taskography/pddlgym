@@ -253,7 +253,36 @@ for env_name, kwargs in [
                 "operators_as_actions": True,
                 "dynamic_action_space": True
             }
+        ),
+        (
+            "taskographyv4tiny5",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv4medium5",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv5tiny5bagslots7",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
+        ),
+        (
+            "taskographyv5medium5bagslots7",
+            {
+                "operators_as_actions": True,
+                "dynamic_action_space": True
+            }
         )
+
 ]:
     other_args = {
         "raise_error_on_invalid_action": False,
