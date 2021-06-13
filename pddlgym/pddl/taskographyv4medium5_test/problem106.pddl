@@ -1167,8 +1167,8 @@
   )
   (:goal (and
 	(classrelation book sink)
-	(classrelation book bed)
-	(classrelation bottle chair)
+	(classrelation book oven)
+	(classrelation clock oven)
 	(classrelation book toilet)
-	(classrelation book oven)))
+	(classrelation clock refrigerator)))
 )

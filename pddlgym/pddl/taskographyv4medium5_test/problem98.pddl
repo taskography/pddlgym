@@ -496,9 +496,9 @@
 	(roomsconnected room9_staricase room5_exercise_room)
   )
   (:goal (and
-	(classrelation bicycle bench)
-	(classrelation bicycle chair)
-	(classrelation bicycle toilet)
+	(classrelation motorcycle chair)
+	(classrelation sportsball bench)
 	(classrelation bicycle sink)
-	(classrelation suitcase bench)))
+	(classrelation sportsball refrigerator)
+	(classrelation bottle sink)))
 )

@@ -713,9 +713,9 @@
 	(roomsconnected room9_closet room3_bathroom)
   )
   (:goal (and
+	(classrelation pottedplant refrigerator)
+	(classrelation pottedplant toilet)
+	(classrelation cup diningtable)
 	(classrelation vase sink)
-	(classrelation pottedplant sink)
-	(classrelation vase refrigerator)
-	(classrelation vase toilet)
-	(classrelation cup chair)))
+	(classrelation cup couch)))
 )

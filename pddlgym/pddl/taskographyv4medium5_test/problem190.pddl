@@ -953,9 +953,9 @@
 	(roomsconnected room9_corridor room1_bathroom)
   )
   (:goal (and
-	(classrelation book sink)
+	(classrelation suitcase sink)
 	(classrelation book diningtable)
-	(classrelation book toilet)
-	(classrelation book couch)
-	(classrelation book microwave)))
+	(classrelation cup chair)
+	(classrelation keyboard toilet)
+	(classrelation surfboard chair)))
 )

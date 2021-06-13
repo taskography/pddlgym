@@ -770,9 +770,9 @@
 	(roomsconnected room9_corridor room20_staircase)
   )
   (:goal (and
-	(classrelation pottedplant refrigerator)
 	(classrelation pottedplant bed)
-	(classrelation pottedplant toilet)
-	(classrelation pottedplant microwave)
-	(classrelation clock chair)))
+	(classrelation vase couch)
+	(classrelation bottle chair)
+	(classrelation bowl microwave)
+	(classrelation bottle couch)))
 )

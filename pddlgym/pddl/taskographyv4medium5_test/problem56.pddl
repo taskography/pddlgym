@@ -350,7 +350,7 @@
 	wineglass - iclass
   )
   (:init 
-	(atlocation robot location_Xneg5_Yneg15_place8_room3_floorC)
+	(atlocation robot location_Xneg62_Ypos9_place3_room12_floorB)
 	(classrelation book refrigerator)
 	(classrelation book sink)
 	(classrelation book toilet)
@@ -393,7 +393,7 @@
 	(inanyreceptacle item93_clock_mediumitem)
 	(inanyreceptacle item94_vase_mediumitem)
 	(inanyreceptacle item9_bottle_smallitem)
-	(inplace robot place8_door_room3_bathroom)
+	(inplace robot place3_door_room12_lobby)
 	(inreceptacle item10_bottle_smallitem receptacle62_sink)
 	(inreceptacle item11_bottle_smallitem receptacle59_oven)
 	(inreceptacle item12_bottle_smallitem receptacle59_oven)
@@ -425,7 +425,7 @@
 	(inreceptacle item93_clock_mediumitem receptacle65_sink)
 	(inreceptacle item94_vase_mediumitem receptacle69_refrigerator)
 	(inreceptacle item9_bottle_smallitem receptacle61_sink)
-	(inroom robot room3_bathroom)
+	(inroom robot room12_lobby)
 	(itematlocation item10_bottle_smallitem location_Xpos5_Yneg8_place71_room1_floorA)
 	(itematlocation item11_bottle_smallitem location_Xpos8_Yneg12_place68_room16_floorB)
 	(itematlocation item12_bottle_smallitem location_Xpos11_Yneg10_place68_room16_floorB)
@@ -937,7 +937,7 @@
   (:goal (and
 	(classrelation book chair)
 	(classrelation book bench)
-	(classrelation book couch)
-	(classrelation book diningtable)
-	(classrelation book bed)))
+	(classrelation book bed)
+	(classrelation tv bench)
+	(classrelation cup sink)))
 )

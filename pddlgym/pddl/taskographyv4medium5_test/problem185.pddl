@@ -305,8 +305,8 @@
   )
   (:goal (and
 	(classrelation kite refrigerator)
-	(classrelation clock refrigerator)
 	(classrelation kite sink)
 	(classrelation kite toilet)
-	(classrelation clock toilet)))
+	(classrelation clock refrigerator)
+	(classrelation kite oven)))
 )

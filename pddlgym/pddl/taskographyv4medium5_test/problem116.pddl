@@ -634,9 +634,9 @@
 	(roomsconnected room9_living_room room5_corridor)
   )
   (:goal (and
-	(classrelation bowl chair)
-	(classrelation suitcase chair)
 	(classrelation bottle chair)
-	(classrelation tv chair)
-	(classrelation book chair)))
+	(classrelation bowl diningtable)
+	(classrelation suitcase diningtable)
+	(classrelation pottedplant bed)
+	(classrelation handbag bed)))
 )

@@ -1218,9 +1218,9 @@
 	(roomsconnected room9_bedroom room12_corridor)
   )
   (:goal (and
-	(classrelation wineglass chair)
-	(classrelation book sink)
 	(classrelation book toilet)
+	(classrelation wineglass diningtable)
+	(classrelation wineglass chair)
 	(classrelation book oven)
-	(classrelation book refrigerator)))
+	(classrelation bottle chair)))
 )

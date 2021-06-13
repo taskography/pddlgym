@@ -858,8 +858,8 @@
   )
   (:goal (and
 	(classrelation bottle chair)
-	(classrelation wineglass chair)
-	(classrelation cup chair)
-	(classrelation keyboard chair)
-	(classrelation book chair)))
+	(classrelation laptop diningtable)
+	(classrelation vase oven)
+	(classrelation umbrella chair)
+	(classrelation keyboard oven)))
 )

@@ -174,7 +174,7 @@
 	wineglass - iclass
   )
   (:init 
-	(atlocation robot location_Xneg56_Yneg17_place4_room7_floorA)
+	(atlocation robot location_Xneg3_Ypos25_place9_room10_floorA)
 	(classrelation banana diningtable)
 	(classrelation bowl couch)
 	(classrelation bowl sink)
@@ -200,7 +200,7 @@
 	(inanyreceptacle item33_potted_plant_largeitem)
 	(inanyreceptacle item8_cup_smallitem)
 	(inanyreceptacle item9_cup_smallitem)
-	(inplace robot place4_door_room7_dining_room)
+	(inplace robot place9_door_room10_lobby)
 	(inreceptacle item10_cup_smallitem receptacle2_oven)
 	(inreceptacle item11_clock_mediumitem receptacle21_toilet)
 	(inreceptacle item12_vase_mediumitem receptacle1_microwave)
@@ -217,7 +217,7 @@
 	(inreceptacle item33_potted_plant_largeitem receptacle36_dining_table)
 	(inreceptacle item8_cup_smallitem receptacle2_oven)
 	(inreceptacle item9_cup_smallitem receptacle2_oven)
-	(inroom robot room7_dining_room)
+	(inroom robot room10_lobby)
 	(itematlocation item10_cup_smallitem location_Xneg19_Yneg29_place12_room8_floorA)
 	(itematlocation item11_clock_mediumitem location_Xneg12_Ypos57_place23_room1_floorA)
 	(itematlocation item12_vase_mediumitem location_Xneg44_Yneg26_place11_room8_floorA)
@@ -434,8 +434,8 @@
   )
   (:goal (and
 	(classrelation vase chair)
-	(classrelation pottedplant chair)
+	(classrelation cup refrigerator)
 	(classrelation cup chair)
-	(classrelation bowl chair)
-	(classrelation banana chair)))
+	(classrelation clock sink)
+	(classrelation vase toilet)))
 )

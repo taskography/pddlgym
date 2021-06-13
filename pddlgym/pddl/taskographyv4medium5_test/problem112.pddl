@@ -820,9 +820,9 @@
 	(roomsconnected room9_dining_room room11_living_room)
   )
   (:goal (and
-	(classrelation bottle chair)
 	(classrelation book sink)
-	(classrelation clock chair)
-	(classrelation bottle bed)
-	(classrelation book couch)))
+	(classrelation tv microwave)
+	(classrelation clock microwave)
+	(classrelation tv toilet)
+	(classrelation handbag toilet)))
 )

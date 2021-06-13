@@ -861,9 +861,9 @@
 	(roomsconnected room9_closet room8_closet)
   )
   (:goal (and
-	(classrelation book bed)
+	(classrelation book refrigerator)
+	(classrelation pottedplant refrigerator)
 	(classrelation book toilet)
-	(classrelation book couch)
 	(classrelation book sink)
-	(classrelation book diningtable)))
+	(classrelation knife toilet)))
 )

@@ -522,9 +522,9 @@
 	(roomsconnected room8_living_room room6_dining_room)
   )
   (:goal (and
+	(classrelation cup toilet)
 	(classrelation vase chair)
 	(classrelation pottedplant chair)
-	(classrelation bottle chair)
-	(classrelation cup chair)
-	(classrelation vase sink)))
+	(classrelation book toilet)
+	(classrelation cup bed)))
 )

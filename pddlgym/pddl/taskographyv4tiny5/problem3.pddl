@@ -416,9 +416,9 @@
 	(roomsconnected room9_kitchen room8_dining_room)
   )
   (:goal (and
-	(classrelation vase chair)
 	(classrelation vase toilet)
 	(classrelation vase bed)
+	(classrelation vase chair)
 	(classrelation vase microwave)
 	(classrelation vase oven)))
 )

@@ -534,9 +534,9 @@
 	(roomsconnected room9_empty_room room5_corridor)
   )
   (:goal (and
-	(classrelation bottle refrigerator)
 	(classrelation spoon refrigerator)
-	(classrelation pottedplant refrigerator)
+	(classrelation frisbee refrigerator)
 	(classrelation clock refrigerator)
-	(classrelation vase refrigerator)))
+	(classrelation pottedplant refrigerator)
+	(classrelation spoon bed)))
 )

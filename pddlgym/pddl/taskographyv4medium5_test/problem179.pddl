@@ -372,9 +372,9 @@
 	(roomsconnected room9_kitchen room6_empty_room)
   )
   (:goal (and
-	(classrelation surfboard sink)
+	(classrelation surfboard oven)
+	(classrelation frisbee sink)
 	(classrelation bottle refrigerator)
-	(classrelation pottedplant refrigerator)
-	(classrelation pottedplant toilet)
-	(classrelation frisbee sink)))
+	(classrelation surfboard couch)
+	(classrelation pottedplant refrigerator)))
 )

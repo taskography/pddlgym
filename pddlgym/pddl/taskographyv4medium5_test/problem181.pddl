@@ -126,9 +126,9 @@
 	wineglass - iclass
   )
   (:init 
-	(atlocation robot location_Xneg8_Ypos10_place5_room3_floorA)
-	(inplace robot place5_door_room3_corridor)
-	(inroom robot room3_corridor)
+	(atlocation robot location_Xpos15_Ypos28_place0_room6_floorA)
+	(inplace robot place0_door_room6_kitchen)
+	(inroom robot room6_kitchen)
 	(itematlocation item15_potted_plant_largeitem location_Xpos5_Ypos11_place9_room7_floorA)
 	(itematlocation item7_vase_mediumitem location_Xpos5_Ypos12_place8_room7_floorA)
 	(itematlocation item8_vase_mediumitem location_Xpos9_Ypos12_place7_room7_floorA)
@@ -264,9 +264,9 @@
 	(roomsconnected room7_living_room room5_dining_room)
   )
   (:goal (and
+	(classrelation vase refrigerator)
 	(classrelation vase sink)
 	(classrelation vase chair)
 	(classrelation pottedplant sink)
-	(classrelation pottedplant chair)
-	(classrelation vase refrigerator)))
+	(classrelation vase couch)))
 )

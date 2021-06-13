@@ -758,9 +758,9 @@
 	(roomsconnected room9_closet room19_garage)
   )
   (:goal (and
-	(classrelation bottle chair)
-	(classrelation tv chair)
+	(classrelation bottle bed)
+	(classrelation tv diningtable)
 	(classrelation umbrella chair)
-	(classrelation suitcase chair)
-	(classrelation clock chair)))
+	(classrelation clock chair)
+	(classrelation tv microwave)))
 )

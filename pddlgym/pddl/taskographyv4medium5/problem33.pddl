@@ -761,8 +761,8 @@
   )
   (:goal (and
 	(classrelation pottedplant bench)
-	(classrelation pottedplant diningtable)
-	(classrelation vase chair)
-	(classrelation pottedplant microwave)
-	(classrelation pottedplant oven)))
+	(classrelation book chair)
+	(classrelation kite chair)
+	(classrelation spoon toilet)
+	(classrelation book couch)))
 )

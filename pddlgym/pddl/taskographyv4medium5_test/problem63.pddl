@@ -317,7 +317,7 @@
 	wineglass - iclass
   )
   (:init 
-	(atlocation robot location_Xneg65_Ypos13_place5_room1_floorA)
+	(atlocation robot location_Xneg56_Ypos28_place13_room12_floorB)
 	(classrelation book chair)
 	(classrelation book couch)
 	(classrelation bowl oven)
@@ -353,7 +353,7 @@
 	(inanyreceptacle item63_potted_plant_largeitem)
 	(inanyreceptacle item64_potted_plant_largeitem)
 	(inanyreceptacle item65_potted_plant_largeitem)
-	(inplace robot place5_door_room1_bathroom)
+	(inplace robot place13_door_room12_dining_room)
 	(inreceptacle item13_book_smallitem receptacle38_chair)
 	(inreceptacle item14_book_smallitem receptacle53_couch)
 	(inreceptacle item15_book_smallitem receptacle50_chair)
@@ -376,7 +376,7 @@
 	(inreceptacle item63_potted_plant_largeitem receptacle35_toilet)
 	(inreceptacle item64_potted_plant_largeitem receptacle50_chair)
 	(inreceptacle item65_potted_plant_largeitem receptacle55_couch)
-	(inroom robot room1_bathroom)
+	(inroom robot room12_dining_room)
 	(itematlocation item13_book_smallitem location_Xpos6_Yneg85_place48_room14_floorB)
 	(itematlocation item14_book_smallitem location_Xneg34_Ypos45_place63_room18_floorB)
 	(itematlocation item15_book_smallitem location_Xpos5_Yneg95_place60_room15_floorC)
@@ -841,8 +841,8 @@
   )
   (:goal (and
 	(classrelation laptop chair)
-	(classrelation cup chair)
-	(classrelation bowl chair)
+	(classrelation cup couch)
+	(classrelation laptop bed)
 	(classrelation tv chair)
-	(classrelation vase sink)))
+	(classrelation cup bed)))
 )

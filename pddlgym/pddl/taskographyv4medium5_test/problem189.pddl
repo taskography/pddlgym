@@ -419,9 +419,9 @@
 	(roomsconnected room9_utility_room room5_corridor)
   )
   (:goal (and
-	(classrelation pottedplant chair)
 	(classrelation bottle chair)
-	(classrelation clock chair)
-	(classrelation pottedplant refrigerator)
-	(classrelation pottedplant microwave)))
+	(classrelation pottedplant toilet)
+	(classrelation clock sink)
+	(classrelation pottedplant chair)
+	(classrelation clock bed)))
 )

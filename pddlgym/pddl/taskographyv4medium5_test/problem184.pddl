@@ -304,9 +304,9 @@
 	(roomsconnected room9_empty_room room10_empty_room)
   )
   (:goal (and
+	(classrelation kite chair)
 	(classrelation kite refrigerator)
 	(classrelation clock refrigerator)
-	(classrelation kite sink)
-	(classrelation kite toilet)
-	(classrelation clock toilet)))
+	(classrelation clock toilet)
+	(classrelation kite toilet)))
 )

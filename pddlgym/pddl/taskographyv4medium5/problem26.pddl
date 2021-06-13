@@ -1233,9 +1233,9 @@
 	(roomsconnected room9_corridor room8_corridor)
   )
   (:goal (and
+	(classrelation clock oven)
+	(classrelation bottle bench)
 	(classrelation pottedplant toilet)
-	(classrelation book sink)
 	(classrelation book toilet)
-	(classrelation book oven)
-	(classrelation book bench)))
+	(classrelation vase sink)))
 )

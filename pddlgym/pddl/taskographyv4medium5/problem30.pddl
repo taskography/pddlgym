@@ -534,9 +534,9 @@
 	(roomsconnected room9_empty_room room5_corridor)
   )
   (:goal (and
+	(classrelation tv microwave)
+	(classrelation bottle microwave)
 	(classrelation bottle refrigerator)
-	(classrelation spoon refrigerator)
-	(classrelation pottedplant refrigerator)
-	(classrelation clock refrigerator)
-	(classrelation vase refrigerator)))
+	(classrelation bottle oven)
+	(classrelation clock bed)))
 )

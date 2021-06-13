@@ -221,9 +221,9 @@
 	(roomsconnected room4_kitchen room1_bathroom)
   )
   (:goal (and
-	(classrelation keyboard couch)
-	(classrelation tv couch)
+	(classrelation keyboard bed)
 	(classrelation keyboard refrigerator)
-	(classrelation keyboard chair)
-	(classrelation keyboard bed)))
+	(classrelation tv bed)
+	(classrelation keyboard couch)
+	(classrelation tv refrigerator)))
 )

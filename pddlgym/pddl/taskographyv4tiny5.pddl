@@ -15,7 +15,6 @@
 	(roomsconnected ?v0 - room ?v1 - room)
 	(inreceptacle ?v0 - item ?v1 - receptacle)
 	(inanyreceptacle ?v0 - item)
-	(gluedtoreceptacle ?v0 - item ?v1 - receptacle)
 	(holds ?v0 - agent ?v1 - item)
 	(holdsany ?v0 - agent)
 	(receptacleopeningtype ?v0 - receptacle)
@@ -119,16 +118,18 @@
 	
 
 	(:action pickupiteminreceptacle
-		:parameters (?a - agent ?i - item ?r - receptacle ?l - location)
+		:parameters (?a - agent ?i - item ?ic - iclass ?r - receptacle ?rc - rclass ?l - location)
 		:precondition (and (atlocation ?a ?l)
 			(itematlocation ?i ?l)
 			(inreceptacle ?i ?r)
-			(not (gluedtoreceptacle ?i ?r))
+			(itemclass ?i ?ic)
+			(receptacleclass ?r ?rc)
 			(not (receptacleopeningtype ?r))
 			(not (holdsany ?a)))
 		:effect (and
 			(holdsany ?a)
 			(holds ?a ?i)
+			(not (classrelation ?ic ?rc))
 			(not (inreceptacle ?i ?r))
 			(not (inanyreceptacle ?i))
 			(not (itematlocation ?i ?l)))
@@ -136,17 +137,19 @@
 	
 
 	(:action pickupiteminopeningreceptacle
-		:parameters (?a - agent ?i - item ?r - receptacle ?l - location)
+		:parameters (?a - agent ?i - item ?ic - iclass ?r - receptacle ?rc - rclass ?l - location)
 		:precondition (and (atlocation ?a ?l)
 			(itematlocation ?i ?l)
 			(inreceptacle ?i ?r)
-			(not (gluedtoreceptacle ?i ?r))
 			(receptacleopeningtype ?r)
 			(receptacleopened ?r)
+			(itemclass ?i ?ic)
+			(receptacleclass ?r ?rc)
 			(not (holdsany ?a)))
 		:effect (and
 			(holdsany ?a)
 			(holds ?a ?i)
+			(not (classrelation ?ic ?rc))
 			(not (inreceptacle ?i ?r))
 			(not (inanyreceptacle ?i))
 			(not (itematlocation ?i ?l)))
@@ -166,7 +169,6 @@
 			(inanyreceptacle ?i)
 			(classrelation ?ic ?rc)
 			(itematlocation ?i ?l)
-			(gluedtoreceptacle ?i ?r)
 			(not (holdsany ?a))
 			(not (holds ?a ?i)))
 	)
@@ -186,7 +188,6 @@
 			(inanyreceptacle ?i)
 			(classrelation ?ic ?rc)
 			(itematlocation ?i ?l)
-			(gluedtoreceptacle ?i ?r)
 			(not (holdsany ?a))
 			(not (holds ?a ?i)))
 	)

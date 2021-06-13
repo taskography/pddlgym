@@ -971,9 +971,9 @@
 	(roomsconnected room9_corridor room8_corridor)
   )
   (:goal (and
-	(classrelation umbrella chair)
 	(classrelation tie chair)
-	(classrelation tv chair)
 	(classrelation book chair)
-	(classrelation clock chair)))
+	(classrelation pottedplant chair)
+	(classrelation book couch)
+	(classrelation cup chair)))
 )

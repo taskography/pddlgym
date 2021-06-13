@@ -1139,9 +1139,9 @@
 	(roomsconnected room9_corridor room24_television_room)
   )
   (:goal (and
-	(classrelation vase chair)
-	(classrelation clock chair)
-	(classrelation tv chair)
+	(classrelation bowl bed)
 	(classrelation pottedplant bed)
-	(classrelation pottedplant diningtable)))
+	(classrelation orange chair)
+	(classrelation tv refrigerator)
+	(classrelation tv chair)))
 )

@@ -704,9 +704,9 @@
 	(roomsconnected room9_empty_room room14_staircase)
   )
   (:goal (and
-	(classrelation pottedplant couch)
-	(classrelation pottedplant refrigerator)
+	(classrelation tv refrigerator)
+	(classrelation cake diningtable)
 	(classrelation pottedplant toilet)
 	(classrelation pottedplant oven)
-	(classrelation bottle chair)))
+	(classrelation pottedplant couch)))
 )

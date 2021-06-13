@@ -1098,9 +1098,9 @@
 	(roomsconnected room9_closet room24_kitchen)
   )
   (:goal (and
-	(classrelation vase bed)
-	(classrelation bottle chair)
+	(classrelation cup oven)
+	(classrelation clock chair)
 	(classrelation umbrella chair)
-	(classrelation teddybear chair)
-	(classrelation wineglass chair)))
+	(classrelation bottle chair)
+	(classrelation cup toilet)))
 )

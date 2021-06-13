@@ -269,14 +269,14 @@ for env_name, kwargs in [
             }
         ),
         (
-            "taskographyv5tiny5bagslots7",
+            "taskographyv5tiny5bagslots5",
             {
                 "operators_as_actions": True,
                 "dynamic_action_space": True
             }
         ),
         (
-            "taskographyv5medium5bagslots7",
+            "taskographyv5medium5bagslots5",
             {
                 "operators_as_actions": True,
                 "dynamic_action_space": True
