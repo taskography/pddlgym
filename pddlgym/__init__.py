@@ -281,8 +281,133 @@ for env_name, kwargs in [
                 "operators_as_actions": True,
                 "dynamic_action_space": True
             }
+        ),
+        (
+            "taskographyv2tiny1scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv2medium1scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv2tiny2scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv2medium2scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv2tiny10scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv2medium10scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3tiny10bagslots10scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots10scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3tiny10bagslots3scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots3scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3tiny10bagslots5scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots5scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3tiny10bagslots7scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv3medium10bagslots7scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv4tiny5scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv4medium5scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv5tiny5bagslots5scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
+        ),
+        (
+            "taskographyv5medium5bagslots5scrub",
+            {
+                'operators_as_actions': True,
+                'dynamic_action_space':True,
+            }
         )
-
 ]:
     other_args = {
         "raise_error_on_invalid_action": False,

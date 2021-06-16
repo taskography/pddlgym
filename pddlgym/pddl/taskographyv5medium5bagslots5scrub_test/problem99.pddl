@@ -1,0 +1,444 @@
+
+(define (problem germantaskographyv5medium5bagslots5problem99) (:domain taskographyv5medium5bagslots5scrub)
+  (:objects
+        bagslot1 - bagslot
+	bagslot2 - bagslot
+	bagslot3 - bagslot
+	bagslot4 - bagslot
+	bagslot5 - bagslot
+	bench - rclass
+	bicycle - iclass
+	book - iclass
+	bottle - iclass
+	chair - rclass
+	item10_bicycle_largeitem - item
+	item11_bicycle_largeitem - item
+	item12_bicycle_largeitem - item
+	item13_bicycle_largeitem - item
+	item14_bicycle_largeitem - item
+	item15_bicycle_largeitem - item
+	item1_bicycle_largeitem - item
+	item23_suitcase_largeitem - item
+	item24_suitcase_largeitem - item
+	item25_suitcase_largeitem - item
+	item26_suitcase_largeitem - item
+	item27_suitcase_largeitem - item
+	item28_sports_ball_largeitem - item
+	item29_bottle_smallitem - item
+	item2_bicycle_largeitem - item
+	item30_bottle_smallitem - item
+	item31_bottle_smallitem - item
+	item32_bottle_smallitem - item
+	item39_laptop_mediumitem - item
+	item3_bicycle_largeitem - item
+	item40_laptop_mediumitem - item
+	item45_book_smallitem - item
+	item4_bicycle_largeitem - item
+	item5_bicycle_largeitem - item
+	item6_bicycle_largeitem - item
+	item7_bicycle_largeitem - item
+	item8_bicycle_largeitem - item
+	item9_bicycle_largeitem - item
+	laptop - iclass
+	location_xneg15_yneg93_place14_room7_floora - location
+	location_xneg20_yneg78_place17_room7_floora - location
+	location_xneg20_ypos9_place45_room6_floora - location
+	location_xneg24_yneg64_place19_room7_floora - location
+	location_xneg24_yneg93_place18_room7_floora - location
+	location_xneg29_yneg79_place9_room7_floora - location
+	location_xneg33_yneg65_place11_room7_floora - location
+	location_xneg34_yneg93_place12_room7_floora - location
+	location_xneg38_yneg77_place13_room7_floora - location
+	location_xneg40_yneg115_place42_room7_floora - location
+	location_xneg41_yneg116_place42_room7_floora - location
+	location_xneg43_yneg94_place15_room7_floora - location
+	location_xneg49_yneg78_place16_room7_floora - location
+	location_xneg52_yneg69_place10_room7_floora - location
+	location_xneg56_yneg113_place42_room7_floora - location
+	location_xneg58_yneg5_place29_room6_floora - location
+	location_xpos101_yneg46_place38_room8_floora - location
+	location_xpos101_yneg66_place43_room4_floora - location
+	location_xpos109_yneg52_place4_room8_floora - location
+	location_xpos111_yneg51_place38_room8_floora - location
+	location_xpos123_yneg50_place39_room8_floora - location
+	location_xpos123_yneg76_place46_room4_floora - location
+	location_xpos124_yneg125_place6_room2_floora - location
+	location_xpos126_yneg99_place7_room1_floora - location
+	location_xpos127_yneg46_place39_room8_floora - location
+	location_xpos139_yneg76_place5_room3_floora - location
+	location_xpos142_yneg121_place33_room2_floora - location
+	location_xpos143_yneg114_place32_room2_floora - location
+	location_xpos143_yneg99_place41_room1_floora - location
+	location_xpos151_yneg71_place30_room3_floora - location
+	location_xpos151_yneg72_place31_room3_floora - location
+	location_xpos161_yneg58_place44_room5_floora - location
+	location_xpos163_yneg111_place20_room5_floora - location
+	location_xpos164_yneg28_place27_room5_floora - location
+	location_xpos164_yneg41_place8_room9_floora - location
+	location_xpos194_yneg114_place21_room5_floora - location
+	location_xpos212_yneg74_place28_room5_floora - location
+	location_xpos213_yneg63_place26_room5_floora - location
+	location_xpos228_yneg69_place1_room5_floora - location
+	location_xpos235_ypos13_place37_room5_floora - location
+	location_xpos270_yneg117_place47_room5_floora - location
+	location_xpos270_yneg127_place48_room5_floora - location
+	location_xpos3_yneg82_place0_room7_floora - location
+	location_xpos47_yneg14_place2_room6_floora - location
+	location_xpos63_yneg55_place25_room7_floora - location
+	location_xpos92_yneg74_place3_room4_floora - location
+	location_xpos96_yneg47_place38_room8_floora - location
+	place0_door_room7_exercise_room - place
+	place10_item3_bicycle - place
+	place11_item4_bicycle - place
+	place12_item5_bicycle - place
+	place13_item6_bicycle - place
+	place14_item8_bicycle - place
+	place15_item9_bicycle - place
+	place16_item10_bicycle - place
+	place17_item11_bicycle - place
+	place18_item12_bicycle - place
+	place19_item13_bicycle - place
+	place1_door_room5_exercise_room - place
+	place20_item14_bicycle - place
+	place21_item15_bicycle - place
+	place25_item24_suitcase - place
+	place26_item25_suitcase - place
+	place27_item26_suitcase - place
+	place28_item27_suitcase - place
+	place29_item28_sports_ball - place
+	place2_door_room6_exercise_room - place
+	place30_item29_bottle - place
+	place31_item30_bottle - place
+	place32_item31_bottle - place
+	place33_item32_bottle - place
+	place37_item45_book - place
+	place38_receptacle34_chair - place
+	place39_receptacle35_chair - place
+	place3_door_room4_corridor - place
+	place41_receptacle41_sink - place
+	place42_receptacle42_refrigerator - place
+	place43_receptacle43_refrigerator - place
+	place44_receptacle44_refrigerator - place
+	place45_receptacle19_bench - place
+	place46_receptacle20_bench - place
+	place47_receptacle21_bench - place
+	place48_receptacle22_bench - place
+	place4_door_room8_reception - place
+	place5_door_room3_bathrrom - place
+	place6_door_room2_bathroom - place
+	place7_door_room1_bathroom - place
+	place8_door_room9_staricase - place
+	place9_item1_bicycle - place
+	receptacle19_bench - receptacle
+	receptacle20_bench - receptacle
+	receptacle21_bench - receptacle
+	receptacle22_bench - receptacle
+	receptacle34_chair - receptacle
+	receptacle35_chair - receptacle
+	receptacle41_sink - receptacle
+	receptacle42_refrigerator - receptacle
+	receptacle43_refrigerator - receptacle
+	receptacle44_refrigerator - receptacle
+	refrigerator - rclass
+	robot - agent
+	room1_bathroom - room
+	room2_bathroom - room
+	room3_bathrrom - room
+	room4_corridor - room
+	room5_exercise_room - room
+	room6_exercise_room - room
+	room7_exercise_room - room
+	room8_reception - room
+	room9_staricase - room
+	sink - rclass
+	sportsball - iclass
+	suitcase - iclass
+  )
+  (:init 
+	(atlocation robot location_xpos47_yneg14_place2_room6_floora)
+	(classrelation bicycle refrigerator)
+	(classrelation laptop chair)
+	(classrelation suitcase chair)
+	(inanyreceptacle item23_suitcase_largeitem)
+	(inanyreceptacle item2_bicycle_largeitem)
+	(inanyreceptacle item39_laptop_mediumitem)
+	(inanyreceptacle item40_laptop_mediumitem)
+	(inanyreceptacle item7_bicycle_largeitem)
+	(inplace robot place2_door_room6_exercise_room)
+	(inreceptacle item23_suitcase_largeitem receptacle34_chair)
+	(inreceptacle item2_bicycle_largeitem receptacle42_refrigerator)
+	(inreceptacle item39_laptop_mediumitem receptacle34_chair)
+	(inreceptacle item40_laptop_mediumitem receptacle35_chair)
+	(inreceptacle item7_bicycle_largeitem receptacle42_refrigerator)
+	(inroom robot room6_exercise_room)
+	(itematlocation item10_bicycle_largeitem location_xneg49_yneg78_place16_room7_floora)
+	(itematlocation item11_bicycle_largeitem location_xneg20_yneg78_place17_room7_floora)
+	(itematlocation item12_bicycle_largeitem location_xneg24_yneg93_place18_room7_floora)
+	(itematlocation item13_bicycle_largeitem location_xneg24_yneg64_place19_room7_floora)
+	(itematlocation item14_bicycle_largeitem location_xpos163_yneg111_place20_room5_floora)
+	(itematlocation item15_bicycle_largeitem location_xpos194_yneg114_place21_room5_floora)
+	(itematlocation item1_bicycle_largeitem location_xneg29_yneg79_place9_room7_floora)
+	(itematlocation item23_suitcase_largeitem location_xpos96_yneg47_place38_room8_floora)
+	(itematlocation item24_suitcase_largeitem location_xpos63_yneg55_place25_room7_floora)
+	(itematlocation item25_suitcase_largeitem location_xpos213_yneg63_place26_room5_floora)
+	(itematlocation item26_suitcase_largeitem location_xpos164_yneg28_place27_room5_floora)
+	(itematlocation item27_suitcase_largeitem location_xpos212_yneg74_place28_room5_floora)
+	(itematlocation item28_sports_ball_largeitem location_xneg58_yneg5_place29_room6_floora)
+	(itematlocation item29_bottle_smallitem location_xpos151_yneg71_place30_room3_floora)
+	(itematlocation item2_bicycle_largeitem location_xneg41_yneg116_place42_room7_floora)
+	(itematlocation item30_bottle_smallitem location_xpos151_yneg72_place31_room3_floora)
+	(itematlocation item31_bottle_smallitem location_xpos143_yneg114_place32_room2_floora)
+	(itematlocation item32_bottle_smallitem location_xpos142_yneg121_place33_room2_floora)
+	(itematlocation item39_laptop_mediumitem location_xpos101_yneg46_place38_room8_floora)
+	(itematlocation item3_bicycle_largeitem location_xneg52_yneg69_place10_room7_floora)
+	(itematlocation item40_laptop_mediumitem location_xpos127_yneg46_place39_room8_floora)
+	(itematlocation item45_book_smallitem location_xpos235_ypos13_place37_room5_floora)
+	(itematlocation item4_bicycle_largeitem location_xneg33_yneg65_place11_room7_floora)
+	(itematlocation item5_bicycle_largeitem location_xneg34_yneg93_place12_room7_floora)
+	(itematlocation item6_bicycle_largeitem location_xneg38_yneg77_place13_room7_floora)
+	(itematlocation item7_bicycle_largeitem location_xneg40_yneg115_place42_room7_floora)
+	(itematlocation item8_bicycle_largeitem location_xneg15_yneg93_place14_room7_floora)
+	(itematlocation item9_bicycle_largeitem location_xneg43_yneg94_place15_room7_floora)
+	(itemclass item10_bicycle_largeitem bicycle)
+	(itemclass item11_bicycle_largeitem bicycle)
+	(itemclass item12_bicycle_largeitem bicycle)
+	(itemclass item13_bicycle_largeitem bicycle)
+	(itemclass item14_bicycle_largeitem bicycle)
+	(itemclass item15_bicycle_largeitem bicycle)
+	(itemclass item1_bicycle_largeitem bicycle)
+	(itemclass item23_suitcase_largeitem suitcase)
+	(itemclass item24_suitcase_largeitem suitcase)
+	(itemclass item25_suitcase_largeitem suitcase)
+	(itemclass item26_suitcase_largeitem suitcase)
+	(itemclass item27_suitcase_largeitem suitcase)
+	(itemclass item28_sports_ball_largeitem sportsball)
+	(itemclass item29_bottle_smallitem bottle)
+	(itemclass item2_bicycle_largeitem bicycle)
+	(itemclass item30_bottle_smallitem bottle)
+	(itemclass item31_bottle_smallitem bottle)
+	(itemclass item32_bottle_smallitem bottle)
+	(itemclass item39_laptop_mediumitem laptop)
+	(itemclass item3_bicycle_largeitem bicycle)
+	(itemclass item40_laptop_mediumitem laptop)
+	(itemclass item45_book_smallitem book)
+	(itemclass item4_bicycle_largeitem bicycle)
+	(itemclass item5_bicycle_largeitem bicycle)
+	(itemclass item6_bicycle_largeitem bicycle)
+	(itemclass item7_bicycle_largeitem bicycle)
+	(itemclass item8_bicycle_largeitem bicycle)
+	(itemclass item9_bicycle_largeitem bicycle)
+	(largeitem item10_bicycle_largeitem)
+	(largeitem item11_bicycle_largeitem)
+	(largeitem item12_bicycle_largeitem)
+	(largeitem item13_bicycle_largeitem)
+	(largeitem item14_bicycle_largeitem)
+	(largeitem item15_bicycle_largeitem)
+	(largeitem item1_bicycle_largeitem)
+	(largeitem item23_suitcase_largeitem)
+	(largeitem item24_suitcase_largeitem)
+	(largeitem item25_suitcase_largeitem)
+	(largeitem item26_suitcase_largeitem)
+	(largeitem item27_suitcase_largeitem)
+	(largeitem item28_sports_ball_largeitem)
+	(largeitem item2_bicycle_largeitem)
+	(largeitem item3_bicycle_largeitem)
+	(largeitem item4_bicycle_largeitem)
+	(largeitem item5_bicycle_largeitem)
+	(largeitem item6_bicycle_largeitem)
+	(largeitem item7_bicycle_largeitem)
+	(largeitem item8_bicycle_largeitem)
+	(largeitem item9_bicycle_largeitem)
+	(locationinplace location_xneg15_yneg93_place14_room7_floora place14_item8_bicycle)
+	(locationinplace location_xneg20_yneg78_place17_room7_floora place17_item11_bicycle)
+	(locationinplace location_xneg20_ypos9_place45_room6_floora place45_receptacle19_bench)
+	(locationinplace location_xneg24_yneg64_place19_room7_floora place19_item13_bicycle)
+	(locationinplace location_xneg24_yneg93_place18_room7_floora place18_item12_bicycle)
+	(locationinplace location_xneg29_yneg79_place9_room7_floora place9_item1_bicycle)
+	(locationinplace location_xneg33_yneg65_place11_room7_floora place11_item4_bicycle)
+	(locationinplace location_xneg34_yneg93_place12_room7_floora place12_item5_bicycle)
+	(locationinplace location_xneg38_yneg77_place13_room7_floora place13_item6_bicycle)
+	(locationinplace location_xneg40_yneg115_place42_room7_floora place42_receptacle42_refrigerator)
+	(locationinplace location_xneg41_yneg116_place42_room7_floora place42_receptacle42_refrigerator)
+	(locationinplace location_xneg43_yneg94_place15_room7_floora place15_item9_bicycle)
+	(locationinplace location_xneg49_yneg78_place16_room7_floora place16_item10_bicycle)
+	(locationinplace location_xneg52_yneg69_place10_room7_floora place10_item3_bicycle)
+	(locationinplace location_xneg56_yneg113_place42_room7_floora place42_receptacle42_refrigerator)
+	(locationinplace location_xneg58_yneg5_place29_room6_floora place29_item28_sports_ball)
+	(locationinplace location_xpos101_yneg46_place38_room8_floora place38_receptacle34_chair)
+	(locationinplace location_xpos101_yneg66_place43_room4_floora place43_receptacle43_refrigerator)
+	(locationinplace location_xpos109_yneg52_place4_room8_floora place4_door_room8_reception)
+	(locationinplace location_xpos111_yneg51_place38_room8_floora place38_receptacle34_chair)
+	(locationinplace location_xpos123_yneg50_place39_room8_floora place39_receptacle35_chair)
+	(locationinplace location_xpos123_yneg76_place46_room4_floora place46_receptacle20_bench)
+	(locationinplace location_xpos124_yneg125_place6_room2_floora place6_door_room2_bathroom)
+	(locationinplace location_xpos126_yneg99_place7_room1_floora place7_door_room1_bathroom)
+	(locationinplace location_xpos127_yneg46_place39_room8_floora place39_receptacle35_chair)
+	(locationinplace location_xpos139_yneg76_place5_room3_floora place5_door_room3_bathrrom)
+	(locationinplace location_xpos142_yneg121_place33_room2_floora place33_item32_bottle)
+	(locationinplace location_xpos143_yneg114_place32_room2_floora place32_item31_bottle)
+	(locationinplace location_xpos143_yneg99_place41_room1_floora place41_receptacle41_sink)
+	(locationinplace location_xpos151_yneg71_place30_room3_floora place30_item29_bottle)
+	(locationinplace location_xpos151_yneg72_place31_room3_floora place31_item30_bottle)
+	(locationinplace location_xpos161_yneg58_place44_room5_floora place44_receptacle44_refrigerator)
+	(locationinplace location_xpos163_yneg111_place20_room5_floora place20_item14_bicycle)
+	(locationinplace location_xpos164_yneg28_place27_room5_floora place27_item26_suitcase)
+	(locationinplace location_xpos164_yneg41_place8_room9_floora place8_door_room9_staricase)
+	(locationinplace location_xpos194_yneg114_place21_room5_floora place21_item15_bicycle)
+	(locationinplace location_xpos212_yneg74_place28_room5_floora place28_item27_suitcase)
+	(locationinplace location_xpos213_yneg63_place26_room5_floora place26_item25_suitcase)
+	(locationinplace location_xpos228_yneg69_place1_room5_floora place1_door_room5_exercise_room)
+	(locationinplace location_xpos235_ypos13_place37_room5_floora place37_item45_book)
+	(locationinplace location_xpos270_yneg117_place47_room5_floora place47_receptacle21_bench)
+	(locationinplace location_xpos270_yneg127_place48_room5_floora place48_receptacle22_bench)
+	(locationinplace location_xpos3_yneg82_place0_room7_floora place0_door_room7_exercise_room)
+	(locationinplace location_xpos47_yneg14_place2_room6_floora place2_door_room6_exercise_room)
+	(locationinplace location_xpos63_yneg55_place25_room7_floora place25_item24_suitcase)
+	(locationinplace location_xpos92_yneg74_place3_room4_floora place3_door_room4_corridor)
+	(locationinplace location_xpos96_yneg47_place38_room8_floora place38_receptacle34_chair)
+	(mediumitem item39_laptop_mediumitem)
+	(mediumitem item40_laptop_mediumitem)
+	(placeinroom place0_door_room7_exercise_room room7_exercise_room)
+	(placeinroom place10_item3_bicycle room7_exercise_room)
+	(placeinroom place11_item4_bicycle room7_exercise_room)
+	(placeinroom place12_item5_bicycle room7_exercise_room)
+	(placeinroom place13_item6_bicycle room7_exercise_room)
+	(placeinroom place14_item8_bicycle room7_exercise_room)
+	(placeinroom place15_item9_bicycle room7_exercise_room)
+	(placeinroom place16_item10_bicycle room7_exercise_room)
+	(placeinroom place17_item11_bicycle room7_exercise_room)
+	(placeinroom place18_item12_bicycle room7_exercise_room)
+	(placeinroom place19_item13_bicycle room7_exercise_room)
+	(placeinroom place1_door_room5_exercise_room room5_exercise_room)
+	(placeinroom place20_item14_bicycle room5_exercise_room)
+	(placeinroom place21_item15_bicycle room5_exercise_room)
+	(placeinroom place25_item24_suitcase room7_exercise_room)
+	(placeinroom place26_item25_suitcase room5_exercise_room)
+	(placeinroom place27_item26_suitcase room5_exercise_room)
+	(placeinroom place28_item27_suitcase room5_exercise_room)
+	(placeinroom place29_item28_sports_ball room6_exercise_room)
+	(placeinroom place2_door_room6_exercise_room room6_exercise_room)
+	(placeinroom place30_item29_bottle room3_bathrrom)
+	(placeinroom place31_item30_bottle room3_bathrrom)
+	(placeinroom place32_item31_bottle room2_bathroom)
+	(placeinroom place33_item32_bottle room2_bathroom)
+	(placeinroom place37_item45_book room5_exercise_room)
+	(placeinroom place38_receptacle34_chair room8_reception)
+	(placeinroom place39_receptacle35_chair room8_reception)
+	(placeinroom place3_door_room4_corridor room4_corridor)
+	(placeinroom place41_receptacle41_sink room1_bathroom)
+	(placeinroom place42_receptacle42_refrigerator room7_exercise_room)
+	(placeinroom place43_receptacle43_refrigerator room4_corridor)
+	(placeinroom place44_receptacle44_refrigerator room5_exercise_room)
+	(placeinroom place45_receptacle19_bench room6_exercise_room)
+	(placeinroom place46_receptacle20_bench room4_corridor)
+	(placeinroom place47_receptacle21_bench room5_exercise_room)
+	(placeinroom place48_receptacle22_bench room5_exercise_room)
+	(placeinroom place4_door_room8_reception room8_reception)
+	(placeinroom place5_door_room3_bathrrom room3_bathrrom)
+	(placeinroom place6_door_room2_bathroom room2_bathroom)
+	(placeinroom place7_door_room1_bathroom room1_bathroom)
+	(placeinroom place8_door_room9_staricase room9_staricase)
+	(placeinroom place9_item1_bicycle room7_exercise_room)
+	(placelocation location_xneg15_yneg93_place14_room7_floora place14_item8_bicycle)
+	(placelocation location_xneg20_yneg78_place17_room7_floora place17_item11_bicycle)
+	(placelocation location_xneg20_ypos9_place45_room6_floora place45_receptacle19_bench)
+	(placelocation location_xneg24_yneg64_place19_room7_floora place19_item13_bicycle)
+	(placelocation location_xneg24_yneg93_place18_room7_floora place18_item12_bicycle)
+	(placelocation location_xneg29_yneg79_place9_room7_floora place9_item1_bicycle)
+	(placelocation location_xneg33_yneg65_place11_room7_floora place11_item4_bicycle)
+	(placelocation location_xneg34_yneg93_place12_room7_floora place12_item5_bicycle)
+	(placelocation location_xneg38_yneg77_place13_room7_floora place13_item6_bicycle)
+	(placelocation location_xneg43_yneg94_place15_room7_floora place15_item9_bicycle)
+	(placelocation location_xneg49_yneg78_place16_room7_floora place16_item10_bicycle)
+	(placelocation location_xneg52_yneg69_place10_room7_floora place10_item3_bicycle)
+	(placelocation location_xneg56_yneg113_place42_room7_floora place42_receptacle42_refrigerator)
+	(placelocation location_xneg58_yneg5_place29_room6_floora place29_item28_sports_ball)
+	(placelocation location_xpos101_yneg66_place43_room4_floora place43_receptacle43_refrigerator)
+	(placelocation location_xpos109_yneg52_place4_room8_floora place4_door_room8_reception)
+	(placelocation location_xpos111_yneg51_place38_room8_floora place38_receptacle34_chair)
+	(placelocation location_xpos123_yneg50_place39_room8_floora place39_receptacle35_chair)
+	(placelocation location_xpos123_yneg76_place46_room4_floora place46_receptacle20_bench)
+	(placelocation location_xpos124_yneg125_place6_room2_floora place6_door_room2_bathroom)
+	(placelocation location_xpos126_yneg99_place7_room1_floora place7_door_room1_bathroom)
+	(placelocation location_xpos139_yneg76_place5_room3_floora place5_door_room3_bathrrom)
+	(placelocation location_xpos142_yneg121_place33_room2_floora place33_item32_bottle)
+	(placelocation location_xpos143_yneg114_place32_room2_floora place32_item31_bottle)
+	(placelocation location_xpos143_yneg99_place41_room1_floora place41_receptacle41_sink)
+	(placelocation location_xpos151_yneg71_place30_room3_floora place30_item29_bottle)
+	(placelocation location_xpos151_yneg72_place31_room3_floora place31_item30_bottle)
+	(placelocation location_xpos161_yneg58_place44_room5_floora place44_receptacle44_refrigerator)
+	(placelocation location_xpos163_yneg111_place20_room5_floora place20_item14_bicycle)
+	(placelocation location_xpos164_yneg28_place27_room5_floora place27_item26_suitcase)
+	(placelocation location_xpos164_yneg41_place8_room9_floora place8_door_room9_staricase)
+	(placelocation location_xpos194_yneg114_place21_room5_floora place21_item15_bicycle)
+	(placelocation location_xpos212_yneg74_place28_room5_floora place28_item27_suitcase)
+	(placelocation location_xpos213_yneg63_place26_room5_floora place26_item25_suitcase)
+	(placelocation location_xpos228_yneg69_place1_room5_floora place1_door_room5_exercise_room)
+	(placelocation location_xpos235_ypos13_place37_room5_floora place37_item45_book)
+	(placelocation location_xpos270_yneg117_place47_room5_floora place47_receptacle21_bench)
+	(placelocation location_xpos270_yneg127_place48_room5_floora place48_receptacle22_bench)
+	(placelocation location_xpos3_yneg82_place0_room7_floora place0_door_room7_exercise_room)
+	(placelocation location_xpos47_yneg14_place2_room6_floora place2_door_room6_exercise_room)
+	(placelocation location_xpos63_yneg55_place25_room7_floora place25_item24_suitcase)
+	(placelocation location_xpos92_yneg74_place3_room4_floora place3_door_room4_corridor)
+	(receptacleatlocation receptacle19_bench location_xneg20_ypos9_place45_room6_floora)
+	(receptacleatlocation receptacle20_bench location_xpos123_yneg76_place46_room4_floora)
+	(receptacleatlocation receptacle21_bench location_xpos270_yneg117_place47_room5_floora)
+	(receptacleatlocation receptacle22_bench location_xpos270_yneg127_place48_room5_floora)
+	(receptacleatlocation receptacle34_chair location_xpos111_yneg51_place38_room8_floora)
+	(receptacleatlocation receptacle35_chair location_xpos123_yneg50_place39_room8_floora)
+	(receptacleatlocation receptacle41_sink location_xpos143_yneg99_place41_room1_floora)
+	(receptacleatlocation receptacle42_refrigerator location_xneg56_yneg113_place42_room7_floora)
+	(receptacleatlocation receptacle43_refrigerator location_xpos101_yneg66_place43_room4_floora)
+	(receptacleatlocation receptacle44_refrigerator location_xpos161_yneg58_place44_room5_floora)
+	(receptacleclass receptacle19_bench bench)
+	(receptacleclass receptacle20_bench bench)
+	(receptacleclass receptacle21_bench bench)
+	(receptacleclass receptacle22_bench bench)
+	(receptacleclass receptacle34_chair chair)
+	(receptacleclass receptacle35_chair chair)
+	(receptacleclass receptacle41_sink sink)
+	(receptacleclass receptacle42_refrigerator refrigerator)
+	(receptacleclass receptacle43_refrigerator refrigerator)
+	(receptacleclass receptacle44_refrigerator refrigerator)
+	(receptacleopeningtype receptacle42_refrigerator)
+	(receptacleopeningtype receptacle43_refrigerator)
+	(receptacleopeningtype receptacle44_refrigerator)
+	(roomplace place0_door_room7_exercise_room room7_exercise_room)
+	(roomplace place1_door_room5_exercise_room room5_exercise_room)
+	(roomplace place2_door_room6_exercise_room room6_exercise_room)
+	(roomplace place3_door_room4_corridor room4_corridor)
+	(roomplace place4_door_room8_reception room8_reception)
+	(roomplace place5_door_room3_bathrrom room3_bathrrom)
+	(roomplace place6_door_room2_bathroom room2_bathroom)
+	(roomplace place7_door_room1_bathroom room1_bathroom)
+	(roomplace place8_door_room9_staricase room9_staricase)
+	(roomsconnected room1_bathroom room2_bathroom)
+	(roomsconnected room1_bathroom room3_bathrrom)
+	(roomsconnected room2_bathroom room1_bathroom)
+	(roomsconnected room3_bathrrom room1_bathroom)
+	(roomsconnected room3_bathrrom room8_reception)
+	(roomsconnected room3_bathrrom room9_staricase)
+	(roomsconnected room4_corridor room8_reception)
+	(roomsconnected room5_exercise_room room9_staricase)
+	(roomsconnected room6_exercise_room room7_exercise_room)
+	(roomsconnected room6_exercise_room room8_reception)
+	(roomsconnected room7_exercise_room room6_exercise_room)
+	(roomsconnected room8_reception room3_bathrrom)
+	(roomsconnected room8_reception room4_corridor)
+	(roomsconnected room8_reception room6_exercise_room)
+	(roomsconnected room9_staricase room3_bathrrom)
+	(roomsconnected room9_staricase room5_exercise_room)
+	(smallitem item29_bottle_smallitem)
+	(smallitem item30_bottle_smallitem)
+	(smallitem item31_bottle_smallitem)
+	(smallitem item32_bottle_smallitem)
+	(smallitem item45_book_smallitem)
+  )
+  (:goal (and
+	(classrelation suitcase sink)
+	(classrelation bicycle bench)
+	(classrelation book refrigerator)
+	(classrelation bottle chair)
+	(classrelation sportsball bench)))
+)
