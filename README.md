@@ -138,7 +138,7 @@ See `pddlgym/pddl/blocks.pddl` and `pddlgym/pddl/blocks/problem1.pddl` for an ex
 
 ## Citation
 
-Please use this bibtex if you want to cite this repository in your publications:
+PDDLGym is offered under an [MIT License](https://github.com/taskography/pddlgym/blob/main/LICENSE.md). Please use this bibtex if you want to cite this repository in your publications:
 ```
 @inproceedings{silver2020pddlgym,
   author    = {Tom Silver and Rohan Chitnis},
@@ -148,3 +148,17 @@ Please use this bibtex if you want to cite this repository in your publications:
   url       = {https://github.com/tomsilver/pddlgym},
 }
 ```
+
+## License
+The Taskography PDDL dataset is offered under a [CC BY License](https://github.com/taskography/pddlgym/blob/main/LICENSE-CC-BY).
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
